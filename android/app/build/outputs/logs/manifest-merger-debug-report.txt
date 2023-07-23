@@ -1,0 +1,424 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/861dc7d574ce1c02971f9abb6c5a58fb/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/c00c718bb935403ba091982fda1549db/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-community_masked-view] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-geolocation-service] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/3cdba1a0665f6463121461b86d261600/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/b38a0999c64baeb514083a8d9a91612e/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muzammil/.gradle/caches/transforms-3/369664caacc05f3e5088975024ec6500/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muzammil/.gradle/caches/transforms-3/137d08d122a53f67c37a4c432ebf7d4e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/muzammil/.gradle/caches/transforms-3/d3d5eb88fbd373e05ca8b115c5b9e407/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muzammil/.gradle/caches/transforms-3/5311eeaa021bda802e391339e5798a78/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/be73aef6399221991f8842ff41e5730c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ea55242a7e4855b4718441a305cc264e/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3136c25142ab0f88cf846feb8db5ada6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3b1dbfe4d7894b9f7ebea58ff584b478/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/0da8f21b84aa015fbd08423ec0676b27/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ae4010ee15a9d0c0b384706358a30749/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/fc22b6ca54d019280c9ae270392de01c/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/09e0eb15fbc0d8406f2ba3c80c9c3a54/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/d2b45293b96352b158a393c4ae730c23/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/9b79d663b53914b2c1156749425a0433/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/e079c84a66cde1a5dd753366f8fed6ad/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/983a860f95e1d0dd521c58228da361e4/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/734013838f227008fae19d5924807dc4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/f5dc6705351db133b7fc9f3637b5860e/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/e277725dd0c6789a8a8a68fc178734e5/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/649b112a69061fb77523c5fae40e47d7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/3c23a82f62ae26b9e0d042a862d5863a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/e520f05cb526c36875f3c1b7b2ee18a1/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/df4ac76f6194a127e3d5d6c1cdf7628d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/muzammil/.gradle/caches/transforms-3/aad823f5e771d0d29ddb098662add763/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/muzammil/.gradle/caches/transforms-3/ffb335765e9809164aee4b83742dd783/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/muzammil/.gradle/caches/transforms-3/ee15bd8856d24db69ccc43ecde474ef0/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/6e03b5b30ab8d32de4d353a377049712/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muzammil/.gradle/caches/transforms-3/6b706ec45c7e888154b5162e5508b2a3/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/muzammil/.gradle/caches/transforms-3/020c457539197279c7444e6e57e50abc/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/f135a2ec6586bd847ec771517ba26682/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/ff8614166b5b1d0f2a9c2dcb1b6e4cc9/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/f88bda57dffe2506221c953fe3377216/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/c793120b3825c47316ded6af225fa95f/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/d60b5fb092d4e4388335a54dd4fe55b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/1ff0db96b723c5bb7cf961a47f6ed602/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/da23b57f1390654017ff75c74ee88aac/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/6e8fcdb5a0be90454aff6695afcfc71a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/5d803ff4cb260ee6341161c902ab8167/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/d027e0642d01b17eb6db75d44aca7940/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/93409f6e2d9cb58d4ba20498afec74e3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5b188a3f643b2a3b298e645b086bee3e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/muzammil/.gradle/caches/transforms-3/edcd87eecf27469fde5d60b24615a57d/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/ae50af890ddcfbe71e40c725fb25a5a4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5745aa1e9e00b1f14c87d4d6a059f840/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/e324bd3ca99735ba20397b695ddafd26/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/cd2d02e00565d36f5a5c6cef2fcee4b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/f9e2238ee1b2bc2f64dd519e23c09f95/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/8504c205efd23811e673c473f874e7ef/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/3d8f95ce9109a4ac0e60dcbc5f279632/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muzammil/.gradle/caches/transforms-3/9c0e81969547ef003763c32ff3850cc1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/muzammil/.gradle/caches/transforms-3/8d30c7efdc33468918d364ebe3e32470/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/31ac4266517d385cc973efcd409eddb8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/c710da91957c07995ace258663e4062d/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muzammil/.gradle/caches/transforms-3/7ba102b9064c549eb2c8a01aa76c2809/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/b11cc242911912cd012c1e623a001793/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/c62d3ab8c1624826043ec817240859bb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/f5dc6705351db133b7fc9f3637b5860e/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/f5dc6705351db133b7fc9f3637b5860e/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/muzammil/.gradle/caches/transforms-3/aad823f5e771d0d29ddb098662add763/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/muzammil/.gradle/caches/transforms-3/aad823f5e771d0d29ddb098662add763/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/muzammil/.gradle/caches/transforms-3/ffb335765e9809164aee4b83742dd783/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/muzammil/.gradle/caches/transforms-3/ffb335765e9809164aee4b83742dd783/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/muzammil/.gradle/caches/transforms-3/ee15bd8856d24db69ccc43ecde474ef0/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/muzammil/.gradle/caches/transforms-3/ee15bd8856d24db69ccc43ecde474ef0/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muzammil/.gradle/caches/transforms-3/9c0e81969547ef003763c32ff3850cc1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muzammil/.gradle/caches/transforms-3/9c0e81969547ef003763c32ff3850cc1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:9:7-39
+	tools:ignore
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:11:7-52
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:11:7-52
+	tools:targetApi
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:12:7-34
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:13:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.weatheapp.MainActivity
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:15:7-26:18
+	android:label
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:launchMode
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:19:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:exported
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:21:9-32
+	android:configChanges
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:18:9-118
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:24:23-70
+uses-sdk
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/861dc7d574ce1c02971f9abb6c5a58fb/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/861dc7d574ce1c02971f9abb6c5a58fb/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/c00c718bb935403ba091982fda1549db/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/c00c718bb935403ba091982fda1549db/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_masked-view] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_masked-view] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-geolocation-service] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-geolocation-service] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/3cdba1a0665f6463121461b86d261600/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/3cdba1a0665f6463121461b86d261600/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/b38a0999c64baeb514083a8d9a91612e/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/muzammil/.gradle/caches/transforms-3/b38a0999c64baeb514083a8d9a91612e/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muzammil/.gradle/caches/transforms-3/369664caacc05f3e5088975024ec6500/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muzammil/.gradle/caches/transforms-3/369664caacc05f3e5088975024ec6500/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muzammil/.gradle/caches/transforms-3/137d08d122a53f67c37a4c432ebf7d4e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muzammil/.gradle/caches/transforms-3/137d08d122a53f67c37a4c432ebf7d4e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/muzammil/.gradle/caches/transforms-3/d3d5eb88fbd373e05ca8b115c5b9e407/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:2:2-70
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/muzammil/.gradle/caches/transforms-3/d3d5eb88fbd373e05ca8b115c5b9e407/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:2:2-70
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muzammil/.gradle/caches/transforms-3/5311eeaa021bda802e391339e5798a78/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muzammil/.gradle/caches/transforms-3/5311eeaa021bda802e391339e5798a78/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/be73aef6399221991f8842ff41e5730c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/be73aef6399221991f8842ff41e5730c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ea55242a7e4855b4718441a305cc264e/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ea55242a7e4855b4718441a305cc264e/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3136c25142ab0f88cf846feb8db5ada6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3136c25142ab0f88cf846feb8db5ada6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3b1dbfe4d7894b9f7ebea58ff584b478/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/3b1dbfe4d7894b9f7ebea58ff584b478/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/0da8f21b84aa015fbd08423ec0676b27/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/0da8f21b84aa015fbd08423ec0676b27/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ae4010ee15a9d0c0b384706358a30749/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/ae4010ee15a9d0c0b384706358a30749/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/fc22b6ca54d019280c9ae270392de01c/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/fc22b6ca54d019280c9ae270392de01c/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/09e0eb15fbc0d8406f2ba3c80c9c3a54/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/09e0eb15fbc0d8406f2ba3c80c9c3a54/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/d2b45293b96352b158a393c4ae730c23/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/d2b45293b96352b158a393c4ae730c23/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/9b79d663b53914b2c1156749425a0433/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/9b79d663b53914b2c1156749425a0433/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/e079c84a66cde1a5dd753366f8fed6ad/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/e079c84a66cde1a5dd753366f8fed6ad/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/983a860f95e1d0dd521c58228da361e4/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/983a860f95e1d0dd521c58228da361e4/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/734013838f227008fae19d5924807dc4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/734013838f227008fae19d5924807dc4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/f5dc6705351db133b7fc9f3637b5860e/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/f5dc6705351db133b7fc9f3637b5860e/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/e277725dd0c6789a8a8a68fc178734e5/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/e277725dd0c6789a8a8a68fc178734e5/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/649b112a69061fb77523c5fae40e47d7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/649b112a69061fb77523c5fae40e47d7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/3c23a82f62ae26b9e0d042a862d5863a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muzammil/.gradle/caches/transforms-3/3c23a82f62ae26b9e0d042a862d5863a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/e520f05cb526c36875f3c1b7b2ee18a1/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/e520f05cb526c36875f3c1b7b2ee18a1/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/df4ac76f6194a127e3d5d6c1cdf7628d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/df4ac76f6194a127e3d5d6c1cdf7628d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/muzammil/.gradle/caches/transforms-3/aad823f5e771d0d29ddb098662add763/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/muzammil/.gradle/caches/transforms-3/aad823f5e771d0d29ddb098662add763/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/muzammil/.gradle/caches/transforms-3/ffb335765e9809164aee4b83742dd783/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/muzammil/.gradle/caches/transforms-3/ffb335765e9809164aee4b83742dd783/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/muzammil/.gradle/caches/transforms-3/ee15bd8856d24db69ccc43ecde474ef0/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/muzammil/.gradle/caches/transforms-3/ee15bd8856d24db69ccc43ecde474ef0/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/6e03b5b30ab8d32de4d353a377049712/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/6e03b5b30ab8d32de4d353a377049712/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muzammil/.gradle/caches/transforms-3/6b706ec45c7e888154b5162e5508b2a3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muzammil/.gradle/caches/transforms-3/6b706ec45c7e888154b5162e5508b2a3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/muzammil/.gradle/caches/transforms-3/020c457539197279c7444e6e57e50abc/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/muzammil/.gradle/caches/transforms-3/020c457539197279c7444e6e57e50abc/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/f135a2ec6586bd847ec771517ba26682/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/f135a2ec6586bd847ec771517ba26682/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/ff8614166b5b1d0f2a9c2dcb1b6e4cc9/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/ff8614166b5b1d0f2a9c2dcb1b6e4cc9/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/f88bda57dffe2506221c953fe3377216/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/f88bda57dffe2506221c953fe3377216/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/c793120b3825c47316ded6af225fa95f/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/c793120b3825c47316ded6af225fa95f/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/d60b5fb092d4e4388335a54dd4fe55b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/d60b5fb092d4e4388335a54dd4fe55b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/1ff0db96b723c5bb7cf961a47f6ed602/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/muzammil/.gradle/caches/transforms-3/1ff0db96b723c5bb7cf961a47f6ed602/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/da23b57f1390654017ff75c74ee88aac/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/da23b57f1390654017ff75c74ee88aac/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/6e8fcdb5a0be90454aff6695afcfc71a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/6e8fcdb5a0be90454aff6695afcfc71a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/5d803ff4cb260ee6341161c902ab8167/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/5d803ff4cb260ee6341161c902ab8167/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/d027e0642d01b17eb6db75d44aca7940/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/d027e0642d01b17eb6db75d44aca7940/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/93409f6e2d9cb58d4ba20498afec74e3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/93409f6e2d9cb58d4ba20498afec74e3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5b188a3f643b2a3b298e645b086bee3e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5b188a3f643b2a3b298e645b086bee3e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/muzammil/.gradle/caches/transforms-3/edcd87eecf27469fde5d60b24615a57d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/muzammil/.gradle/caches/transforms-3/edcd87eecf27469fde5d60b24615a57d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/ae50af890ddcfbe71e40c725fb25a5a4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/ae50af890ddcfbe71e40c725fb25a5a4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5745aa1e9e00b1f14c87d4d6a059f840/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5745aa1e9e00b1f14c87d4d6a059f840/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/e324bd3ca99735ba20397b695ddafd26/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/e324bd3ca99735ba20397b695ddafd26/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/cd2d02e00565d36f5a5c6cef2fcee4b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/cd2d02e00565d36f5a5c6cef2fcee4b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/f9e2238ee1b2bc2f64dd519e23c09f95/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/f9e2238ee1b2bc2f64dd519e23c09f95/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/8504c205efd23811e673c473f874e7ef/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/8504c205efd23811e673c473f874e7ef/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/3d8f95ce9109a4ac0e60dcbc5f279632/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/3d8f95ce9109a4ac0e60dcbc5f279632/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muzammil/.gradle/caches/transforms-3/9c0e81969547ef003763c32ff3850cc1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muzammil/.gradle/caches/transforms-3/9c0e81969547ef003763c32ff3850cc1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/muzammil/.gradle/caches/transforms-3/8d30c7efdc33468918d364ebe3e32470/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/muzammil/.gradle/caches/transforms-3/8d30c7efdc33468918d364ebe3e32470/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/31ac4266517d385cc973efcd409eddb8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muzammil/.gradle/caches/transforms-3/31ac4266517d385cc973efcd409eddb8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/c710da91957c07995ace258663e4062d/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/c710da91957c07995ace258663e4062d/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muzammil/.gradle/caches/transforms-3/7ba102b9064c549eb2c8a01aa76c2809/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muzammil/.gradle/caches/transforms-3/7ba102b9064c549eb2c8a01aa76c2809/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/b11cc242911912cd012c1e623a001793/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muzammil/.gradle/caches/transforms-3/b11cc242911912cd012c1e623a001793/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/c62d3ab8c1624826043ec817240859bb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muzammil/.gradle/caches/transforms-3/c62d3ab8c1624826043ec817240859bb/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-76
+MERGED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/5241824afeb68786f18703930bddfda1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

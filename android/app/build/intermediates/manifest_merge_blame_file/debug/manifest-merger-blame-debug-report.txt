@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weatheapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:5:5-79
+14-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:5:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.182.0] /Users/muzammil/.gradle/caches/transforms-3/3d8219873e07f941c1d0cfcade16ad8c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+16-->[:react-native-community_netinfo] /Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+17
+18    <application
+18-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:7:5-27:19
+19        android:name="com.weatheapp.MainApplication"
+19-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:8:7-38
+20        android:allowBackup="false"
+20-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:12:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] /Users/muzammil/.gradle/caches/transforms-3/42b89cebc04ea39172ebfc1406a88b01/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:10:7-41
+24        android:label="@string/app_name"
+24-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:9:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:11:7-52
+26        android:theme="@style/AppTheme"
+26-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:13:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:8:9-44
+28        <activity
+28-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:9-111
+29            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+29-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:19-83
+30            android:exported="false" />
+30-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/debug/AndroidManifest.xml:11:84-108
+31        <activity
+31-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:15:7-26:18
+32            android:name="com.weatheapp.MainActivity"
+32-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:16:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+33-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:18:9-118
+34            android:exported="true"
+34-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:21:9-32
+35            android:label="@string/app_name"
+35-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:17:9-41
+36            android:launchMode="singleTask"
+36-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:19:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:20:9-51
+38            <intent-filter>
+38-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:22:9-25:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:23:13-65
+39-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:23:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:24:13-73
+41-->/Users/muzammil/Jugnu/WeatherPredictor/Weatheapp/android/app/src/main/AndroidManifest.xml:24:23-70
+42            </intent-filter>
+43        </activity>
+44
+45        <meta-data
+45-->[com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+46            android:name="com.facebook.soloader.enabled"
+46-->[com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+47            android:value="false" />
+47-->[com.facebook.soloader:soloader:0.10.5] /Users/muzammil/.gradle/caches/transforms-3/6c7bd2af8cbdf49193d9ccbb8948ae72/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+48
+49        <activity
+49-->[com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/5276293eadb94689242429753b78b2f4/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:17.5.0] /Users/muzammil/.gradle/caches/transforms-3/67b189f3a8212676d842abb94d077e93/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+60            android:authorities="com.weatheapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/muzammil/.gradle/caches/transforms-3/7f84c2d3f9271707398d9122cee438c8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muzammil/.gradle/caches/transforms-3/6dd1c4353fa9b7310321aead009466bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
