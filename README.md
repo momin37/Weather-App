@@ -50,9 +50,9 @@ To run the Weather Forecast App locally on your machine, follow these steps:
    npm install
    
 
-### Set Up OpenWeatherMap API Key
+### Set Up WeatherApi API Key
 
-1. Sign up for a free account on [OpenWeatherMap](https://openweathermap.org/) if you don't have one.
+1. Sign up for a free account on [WeatherApi](https://www.weatherapi.com/signup.aspx) if you don't have one.
 
 2. Obtain your API key from OpenWeatherMap.
 
