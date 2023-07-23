@@ -7,7 +7,8 @@ Welcome to the Weather Forecast App! This React Native application allows users 
 - View weather for the current location on the home screen.
 - Search for weather in any city around the world.
 - Get real-time weather updates.
-- You can change the units of measurement by clicking on the setting icon on Detail Screen
+- Weather updates will be shown on Home Screen depending on user location using geolocation services.
+- You can change the units of measurement by clicking on the setting icon on Detail Screen.
 - Beautiful and intuitive user interface.
 
 ## How to Run the Project
