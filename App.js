@@ -8,15 +8,15 @@ import {constants} from './src/utils';
 const App = () => {
   useEffect(() => {
     const unsubscribe = NetInfo.addEventListener(state => {
-      setTimeout(() => {
+      
         console.log('internet-----', state.isConnected);
         constants.isInternetConnected = state.isConnected;
-      }, 500);
+      
     });
     return () => {
-      unsubscribe;
+      unsubscribe();
     };
-  });
+  },[]);
   return (
     <SafeAreaProvider style={{flex: 1}}>
       <ScreenNavigator />

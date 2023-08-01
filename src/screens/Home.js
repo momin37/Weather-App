@@ -22,7 +22,7 @@ import CurrentLocationWeather from "../components/CurrentLocationWeather";
 const Home = () => {
   const navigation = useNavigation();
   
-  const apiKey = WEATHER_API_KEY;
+  
   
   const detailedInfoModalRef = useRef();
 
