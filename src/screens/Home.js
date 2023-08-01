@@ -1,7 +1,7 @@
-import {View, StyleSheet} from 'react-native';
-import React, {useEffect, useState, useRef} from 'react';
-import {useNavigation} from '@react-navigation/native';
-import {WEATHER_API_KEY} from '@env';
+import { View, StyleSheet } from "react-native";
+import React, { useEffect, useState, useRef } from "react";
+import { useNavigation } from "@react-navigation/native";
+import { WEATHER_API_KEY } from "@env";
 
 import {
   SnackBar,
@@ -10,36 +10,38 @@ import {
   getCurrentLocation,
   Colors,
   constants,
-} from '../utils';
-import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
+} from "../utils";
+import { widthPercentageToDP as wp } from "react-native-responsive-screen";
 
-import {Header, Input, Button} from '@rneui/themed';
-import DetailedWeatherInfoModal from '../components/DetailedWeatherInfoModal';
-import CurrentLocationWeather from '../components/CurrentLocationWeather';
+import { Header, Input, Button } from "@rneui/themed";
+import DetailedWeatherInfoModal from "../components/DetailedWeatherInfoModal";
+import CurrentLocationWeather from "../components/CurrentLocationWeather";
+
+
 
 const Home = () => {
   const navigation = useNavigation();
-  // const apiKey = process.env.WEATHER_API_KEY;
-  const apiKey = constants.apiKey;
-
+  
+  const apiKey = WEATHER_API_KEY;
+  
   const detailedInfoModalRef = useRef();
 
-  const [cityName, setCityName] = useState('');
+  const [cityName, setCityName] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [currentLocationWeather, setCurrentLocationWeather] = useState({});
   const forcastDays = 5;
 
-  const fetchCurrentWeatherData = async (apiKey, latitude, longitude) => {
+  const fetchCurrentWeatherData = async ( latitude, longitude) => {
     apiCall.fetchCurrentLocationWeatherDetails(
-      apiKey,
+      WEATHER_API_KEY,
       latitude,
       longitude,
       (success, response) => {
         if (success) {
-          // console.log('response Data', response);
+          
           setCurrentLocationWeather(response);
         }
-      },
+      }
     );
   };
   useEffect(() => {
@@ -49,12 +51,12 @@ const Home = () => {
         getCurrentLocation((status, position) => {
           if (status) {
             fetchCurrentWeatherData(
-              apiKey,
+              
               position.latitude,
-              position.longitude,
+              position.longitude
             );
           } else {
-            SnackBar.showErrorMsg('Unable to get location');
+            SnackBar.showErrorMsg("Unable to get location");
           }
         });
       }
@@ -63,28 +65,28 @@ const Home = () => {
   }, []);
 
   const handleWeatherFetch = () => {
-    if (cityName != '') {
+    if (cityName != "") {
       setIsLoading(true);
       apiCall.fetchWeatherDetails(
-        apiKey,
+        WEATHER_API_KEY,
         cityName,
         forcastDays,
         (success, response) => {
           setIsLoading(false);
           if (success) {
-            navigation.navigate('WeatherDetails', {weatherData: response});
-            setCityName('');
+            navigation.navigate("WeatherDetails", { weatherData: response });
+            setCityName("");
           }
-        },
+        }
       );
     } else {
-      SnackBar.showErrorMsg('Please enter valid city name', 3000);
+      SnackBar.showErrorMsg("Please enter valid city name", 3000);
     }
   };
 
   return (
     <>
-      <Header centerComponent={{text: 'Home', style: styles.heading}} />
+      <Header centerComponent={{ text: "Home", style: styles.heading }} />
       <View style={styles.container}>
         {currentLocationWeather.current && (
           <CurrentLocationWeather
@@ -96,7 +98,7 @@ const Home = () => {
         <Input
           placeholder="Enter city name"
           placeholderTextColor={Colors.moreLightGray}
-          onChangeText={text => setCityName(text)}
+          onChangeText={(text) => setCityName(text)}
           value={cityName}
         />
 
@@ -116,14 +118,14 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     marginHorizontal: wp(5),
   },
   heading: {
-    color: 'white',
+    color: "white",
     fontSize: 22,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   submitButton: {
     width: wp(86),
